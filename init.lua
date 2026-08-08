@@ -212,7 +212,7 @@ for shape_id, shape_def in pairs(SHAPES) do
 		paramtype = "light",
 		sunlight_propagates = (shape_def.drawtype ~= "normal"),
 		paramtype2 = (shape_def.drawtype == "normal") and "none" or "facedir",
-		tiles = {"default_wood.png"},
+		tiles = {"whizchameleon_default.png"},
 		groups = groups,
 		on_rightclick = handle_rightclick,
 	})
